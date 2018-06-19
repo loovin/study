@@ -1,0 +1,6 @@
+server:
+  port: 9000
+zuul:
+  routes:
+    source:
+      url: http://localhost:8080

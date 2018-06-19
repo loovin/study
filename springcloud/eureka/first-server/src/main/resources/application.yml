@@ -1,0 +1,21 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka2:8762/eureka
+server:
+  port: 8761
+spring:
+  application:
+    name: eureka-server
+  profiles: slaveA
+---
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka1:8761/eureka
+server:
+  port: 8762
+spring:
+  application:
+    name: eureka-server
+  profiles: slaveB

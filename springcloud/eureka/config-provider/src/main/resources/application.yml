@@ -1,0 +1,20 @@
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    # 每隔 2 秒抓取一次服务列表，默认是 30 秒
+    registry-fetch-interval-seconds: 2
+  instance:
+    # 表示每隔 5 秒向eureka服务器发送心跳
+    lease-renewal-interval-in-seconds: 5
+    # 表示服务器 6 秒没有收到心跳则认为该服务失效，但服务器是通过定时器每60秒进行一次统一移除
+    lease-expiration-duration-in-seconds: 6
+    metadata-map:
+      mydata1: firstdata
+spring:
+  application:
+    name: config-provider
+logging:
+  level:
+    com.netflix: debug

@@ -1,0 +1,11 @@
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  server:
+    # 当大量的微服务都不向server发心跳，则认为是网络原因，此时服务不会被移除，进入自我保护状态
+    enable-self-preservation: false
+    # 服务器每 5 秒进行移除已经失效的微服务，默认是 60 秒
+    eviction-interval-timer-in-ms: 5000
+server:
+  port: 8761
