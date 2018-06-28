@@ -1,0 +1,14 @@
+management:
+  security:
+    enabled: false
+spring:
+  #application:
+  #  name: config-client
+  cloud:
+    config:
+      url: http://localhost:8888
+      profile: dev,zuul # 自动读取config-client-dev.yml，config-client为application.name或者config.name定义
+      name: config-client
+      label: test-label # 覆盖server端配置的config.server.default-label
+      # name: config-client2 # config-client2-dev.yml
+      # 没有 cloud.config.name，也没有 application.name，则读取 application-dev.yml

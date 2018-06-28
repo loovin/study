@@ -1,0 +1,16 @@
+server:
+  port: 8888
+management:
+  security:
+    enabled: false
+spring:
+  profiles:
+    active: subversion
+  cloud:
+    config:
+      server:
+        svn:
+          uri: https://Loovin/svn/test
+          username: tsb
+          password: tsb
+        default-label: test-label
