@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      url: http://localhost:8888
+      profile: dev # 会读取文件名为：config-client-dev.yml
