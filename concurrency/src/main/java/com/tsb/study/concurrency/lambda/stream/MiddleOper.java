@@ -1,4 +1,4 @@
-package com.tsb.study.lambda.stream;
+package com.tsb.study.concurrency.lambda.stream;
 
 import java.util.Arrays;
 import java.util.Collections;

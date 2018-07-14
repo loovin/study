@@ -1,4 +1,4 @@
-package com.tsb.study.lambda.stream;
+package com.tsb.study.concurrency.lambda.stream;
 
 import java.util.concurrent.ForkJoinPool;
 import java.util.stream.Stream;
