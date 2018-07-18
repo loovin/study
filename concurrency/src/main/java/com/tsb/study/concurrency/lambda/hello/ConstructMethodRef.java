@@ -1,4 +1,4 @@
-package com.tsb.study.lambda.hello;
+package com.tsb.study.concurrency.lambda.hello;
 
 import java.util.function.Supplier;
 

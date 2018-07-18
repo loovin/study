@@ -1,4 +1,4 @@
-package com.tsb.study.lambda.stream;
+package com.tsb.study.concurrency.lambda.stream;
 
 import java.io.IOException;
 import java.nio.file.Files;

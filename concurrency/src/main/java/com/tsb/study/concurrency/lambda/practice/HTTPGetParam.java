@@ -1,4 +1,4 @@
-package com.tsb.study.lambda.practice;
+package com.tsb.study.concurrency.lambda.practice;
 
 import java.util.Map;
 import java.util.stream.Collectors;
