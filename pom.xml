@@ -18,6 +18,7 @@
         <module>guava</module>
         <module>springcloud</module>
         <module>concurrency</module>
+        <module>activiti</module>
     </modules>
 
 </project>
