@@ -1,4 +1,4 @@
-package com.tsb.study.activiti.deploy;
+package com.tsb.study.activiti.api.deploy;
 
 import org.activiti.bpmn.model.BpmnModel;
 import org.activiti.bpmn.model.EndEvent;

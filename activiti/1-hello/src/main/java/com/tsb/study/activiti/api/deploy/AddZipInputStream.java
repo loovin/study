@@ -1,4 +1,4 @@
-package com.tsb.study.activiti.deploy;
+package com.tsb.study.activiti.api.deploy;
 
 import java.io.InputStream;
 import java.util.zip.ZipInputStream;

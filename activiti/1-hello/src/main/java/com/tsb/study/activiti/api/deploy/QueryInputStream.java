@@ -1,4 +1,4 @@
-package com.tsb.study.activiti.deploy;
+package com.tsb.study.activiti.api.deploy;
 
 import org.activiti.engine.ProcessEngine;
 import org.activiti.engine.ProcessEngines;
@@ -6,7 +6,6 @@ import org.activiti.engine.RepositoryService;
 import org.activiti.engine.repository.Deployment;
 import org.activiti.engine.repository.DeploymentBuilder;
 
-import java.io.IOException;
 import java.io.InputStream;
 
 /**

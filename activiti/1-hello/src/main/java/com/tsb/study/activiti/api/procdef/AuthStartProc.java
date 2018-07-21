@@ -1,4 +1,4 @@
-package com.tsb.study.activiti.procdef;
+package com.tsb.study.activiti.api.procdef;
 
 import org.activiti.engine.IdentityService;
 import org.activiti.engine.ProcessEngine;

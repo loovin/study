@@ -1,4 +1,4 @@
-package com.tsb.study.activiti.query.usergroup;
+package com.tsb.study.activiti.api.usergroup;
 
 import org.activiti.engine.IdentityService;
 import org.activiti.engine.ProcessEngine;
