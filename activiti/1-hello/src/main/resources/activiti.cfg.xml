@@ -12,5 +12,6 @@
 		<property name="databaseSchemaUpdate" value="true" />
 		<!-- 不自动生成流程图 -->
 		<!--<property name="createDiagramOnDeploy" value="false"/>-->
+		<property name="asyncExecutorActivate" value="true"></property>
 	</bean>
 </beans>
