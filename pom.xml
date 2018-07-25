@@ -19,6 +19,7 @@
         <module>springcloud</module>
         <module>concurrency</module>
         <module>activiti</module>
+        <module>drools</module>
     </modules>
 
 </project>
