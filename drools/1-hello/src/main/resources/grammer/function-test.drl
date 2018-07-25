@@ -1,0 +1,12 @@
+package com.tsb.study.drools.grammer
+
+function void print(Member m) {
+    System.out.println("会员身份：" + m.getIdentity() + ", 消费金额：" + m.getAmount());
+}
+
+rule "test function"
+    when 
+        $m : Member(amount > 100);
+    then 
+        print($m);
+end

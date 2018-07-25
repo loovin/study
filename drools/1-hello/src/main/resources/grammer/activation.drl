@@ -1,0 +1,20 @@
+package com.tsb.study.drools.grammer
+
+
+
+rule "acivation group A"
+    activation-group "acivation group"
+    when
+        Member(amount > 100)
+    then
+        System.out.println("消费金额大于100, 组A");
+end
+
+rule "acivation group B"
+    activation-group "acivation group"
+    salience 10
+    when
+        Member(amount > 120)
+    then
+        System.out.println("消费金额大于120, 组B");
+end

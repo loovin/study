@@ -1,0 +1,10 @@
+package com.tsb.study.drools.grammer
+
+
+rule "discount a"
+    when
+        $m : Member(amount >= 100)
+    then
+        $m.setAfterDiscount(100 - 20);
+        update($m);
+end
