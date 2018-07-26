@@ -16,6 +16,7 @@
 
     <modules>
         <module>1-hello</module>
+        <module>spring</module>
     </modules>
 
 </project>
