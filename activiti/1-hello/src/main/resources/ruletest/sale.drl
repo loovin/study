@@ -1,0 +1,20 @@
+package com.tsb.study.activiti.ruletest
+
+
+rule "gold"
+    when
+        $m : Member(identity == "gold")
+    then
+        System.out.println("gold................");
+        $m.setResult(0.7);
+        update($m);
+end
+
+rule "silver"
+    when
+        $m : Member(identity == "silver")
+    then
+        System.out.println("silver................");
+        $m.setResult(0.8);
+        update($m);
+end
