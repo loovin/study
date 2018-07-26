@@ -11,7 +11,8 @@
         <serviceTask id="servicetask1" name="输出结果" activiti:class="com.tsb.study.activiti.ruletest.OutputDelegate"></serviceTask>
         <businessRuleTask id="businessruletask1" name="匹配销售规则"
             activiti:ruleVariablesInput="${member}"
-            activiti:resultVariable="members"></businessRuleTask>
+            activiti:resultVariable="members">
+		</businessRuleTask>
         <endEvent id="endevent1" name="End"></endEvent>
         <sequenceFlow id="flow1" sourceRef="startevent1"
             targetRef="usertask1"></sequenceFlow>
