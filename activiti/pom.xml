@@ -15,8 +15,10 @@
     </properties>
 
     <modules>
+        <module>web</module>
         <module>1-hello</module>
         <module>spring</module>
+        <module>springboot</module>
     </modules>
 
 </project>
